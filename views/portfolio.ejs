@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.com/libraries/billboard.js">
     <!-- bootstrap 4 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
@@ -15,6 +14,8 @@
     <!-- Googles Font -->
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/style.css">
 </head>
 
@@ -28,36 +29,43 @@
                             <p>WEB DEVELOPER</p>
                             <h1 id="lastname" class="display-1">DANEV</h1>
                             <h1 class="display-1">NEMANJA</h1>
-                            <button data-toggle="modal" data-target="#exampleModal" class="waves-effect waves-light btn-large light-green">CONTACT ME</button>
+                            <a id="btn-contact" href="/contact" class="waves-effect waves-light btn-large">CONTACT ME</a>
+                            <!-- light-green -->
                         </div>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        ...
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                     <div class="col-md-5">
                         <div class="first-right">
                             <img id="my-image" src="https://www.w3schools.com/w3images/avatar2.png" alt="">
                         </div>
 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div id="social-media">
+                            <ul class="d-flex flex-row">
+                                <li class="m-3">
+                                    <a href="https://www.facebook.com/nemanja.danev" target="_blank">
+                                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="https://www.instagram.com/nemanjadanev/" target="_blank">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="https://www.linkedin.com/in/nemanja-danev-858b68163/" target="_blank">
+                                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="https://github.com/ndanev" target="_blank">
+                                        <i class="fa fa-github-square" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,7 +79,8 @@
                     <div class="col-md-7">
                         <div class="second-left">
                             <h4>OBJECTIVE</h4>
-                            <h5>Describe your goals</h5>
+                            <h5>
+                                <i class="fa fa-bullseye" aria-hidden="true"></i> Describe your goals </h5>
                             <hr>
                             <p id="second-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus veniam eveniet consequatur atque
                                 vitae dignissimos, repudiandae cum quam rerum aspernatur doloribus qui animi non fuga dolore
@@ -141,11 +150,14 @@
     <section id="third-section">
         <div class="content-box">
             <div class="container">
+                <h3 class="text-center mb-5">
+                    <i class="fa fa-code" aria-hidden="true"></i>EXPERIENCE
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                </h3>
                 <div class="row">
                     <div class="col-md-7">
                         <div class="third-left">
                             <div id="experience-first">
-                                <h4>EXPERIENCE</h4>
                                 <h5>Online Github User</h5>
                                 <hr>
                                 <p id="third-text-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus veniam eveniet consequatur
@@ -160,6 +172,19 @@
                             </div>
                             <div id="experience-second">
                                 <h5>Online WebTech Project</h5>
+                                <hr>
+                                <p id="third-text-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus veniam eveniet consequatur
+                                    atque vitae dignissimos, repudiandae cum quam rerum aspernatur doloribus qui animi non
+                                    fuga dolore quo nemo maxime sequi. Minus veniam eveniet consequatur atque vitae dignissimos,
+                                    repudiandae cum quam rerum aspernatur doloribus qui animi non fuga dolore quo nemo maxime
+                                    sequi. Minus veniam eveniet consequatur atque vitae dignissimos, repudiandae cum quam
+                                    rerum aspernatur doloribus qui animi non fuga dolore quo nemo maxime sequi. Minus veniam
+                                    eveniet consequatur atque vitae dignissimos, repudiandae cum quam rerum aspernatur doloribus
+                                    qui animi non fuga dolore quo nemo maxime sequi. Minus veniam eveniet consequatur atque
+                                    vitae dignissimos</p>
+                            </div>
+                            <div id="experience-third">
+                                <h5>Portfolio</h5>
                                 <hr>
                                 <p id="third-text-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus veniam eveniet consequatur
                                     atque vitae dignissimos, repudiandae cum quam rerum aspernatur doloribus qui animi non
@@ -198,7 +223,8 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Info card title</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                        content.</p>
+                                        content.
+                                    </p>
                                 </div>
                             </div>
                         </div>

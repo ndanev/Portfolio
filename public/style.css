@@ -7,6 +7,11 @@
     
 }
 
+i.fa {
+    font-size: 50px;
+}
+
+
 
 /* FIRST SECTION */
 
@@ -29,14 +34,45 @@
     font-weight: 700;
 }
 
+h1 {
+    color: #211F1F; 
+}
+
 h4 {
     font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
+}
+
+#btn-contact {
+    font-size: 13px;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+#btn-contact:hover {
+    color: #ffffff;
 }
 
 .first-right {
     width: 100%;
 }
 
+#social-media {
+    position: absolute;
+    left: 0;
+}
+.fa-facebook-square:before {
+    color: #3b5998;
+}
+.fa-instagram:before {
+    color: #e95950;
+}
+.fa-linkedin-square:before {
+    color: #0077b5;
+}
+.fa-github-square:before {
+    color: #211F1F;
+}
 /* SECOND SECTION */
 
 #second-section {
@@ -50,6 +86,10 @@ h4 {
 
 #second-text {
     font-size: 16px;
+}
+
+.fa-bullseye:before {
+    font-size: 20px;
 }
 
 /* THIRD SECTION*/
@@ -70,7 +110,17 @@ hr {
     margin-bottom: 40px;
 }
 
-#third-right {
-    
+#experience-second {
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
+    font-size: 4em;
+}
+
+.fa-code:before {
+    margin: 10px;
 }
 

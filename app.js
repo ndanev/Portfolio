@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
     res.render('portfolio');
 });
 
+app.get('/contact', (req, res) => {
+    res.render('contact');
+});
+
 
 app.listen(5000, () => {
     console.log('Portfolio server started..');
