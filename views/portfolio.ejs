@@ -28,8 +28,30 @@
                             <p>WEB DEVELOPER</p>
                             <h1 id="lastname" class="display-1">DANEV</h1>
                             <h1 class="display-1">NEMANJA</h1>
-                            <button type="button" class="waves-effect waves-light btn-large light-green">CONTACT ME</button>
+                            <button data-toggle="modal" data-target="#exampleModal" class="waves-effect waves-light btn-large light-green">CONTACT ME</button>
                         </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="col-md-5">
                         <div class="first-right">
@@ -62,8 +84,8 @@
                                 cum quam rerum aspernatur doloribus qui animi non fuga dolore quo nemo maxime sequi. Minus
                                 veniam eveniet consequatur atque vitae dignissimos, repudiandae cum quam rerum aspernatur
                                 doloribus qui animi non fuga dolore quo nemo maxime sequi. Minus veniam eveniet consequatur
-                                atque vitae dignissimos, repudiandae cum quam rerum aspernatur doloribus qui animi non fuga
-                                dolore quo nemo maxime sequi</p>
+                                atque vitae dignissimos, repudiandae cum quam rerum aspernatur doloribus qui animi non
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -119,38 +141,67 @@
     <section id="third-section">
         <div class="content-box">
             <div class="container">
-                <div class="col-md-7">
-                    <div class="third-left">
-                        <div id="experience-first">
-                            <h4>EXPERIENCE</h4>
-                            <h5>Onile Github User</h5>
-                            <hr>
-                            <p id="third-text-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus veniam eveniet consequatur atque
-                                vitae dignissimos, repudiandae cum quam rerum aspernatur doloribus qui animi non fuga dolore
-                                quo nemo maxime sequi. Minus veniam eveniet consequatur atque vitae dignissimos, repudiandae
-                                cum quam rerum aspernatur doloribus qui animi non fuga dolore quo nemo maxime sequi. Minus
-                                veniam eveniet consequatur atque vitae dignissimos, repudiandae cum quam rerum aspernatur
-                                doloribus qui animi non fuga dolore quo nemo maxime sequi. Minus veniam eveniet consequatur
-                                atque vitae dignissimos, repudiandae cum quam rerum aspernatur doloribus qui animi non fuga
-                                dolore quo nemo maxime sequi. Minus veniam eveniet consequatur atque vitae dignissimos</p>
-                        </div>
-                        <div id="experience-second">
-                            <h5>Onile WebTech Project</h5>
-                            <hr>
-                            <p id="third-text-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus veniam eveniet consequatur atque
-                                vitae dignissimos, repudiandae cum quam rerum aspernatur doloribus qui animi non fuga dolore
-                                quo nemo maxime sequi. Minus veniam eveniet consequatur atque vitae dignissimos, repudiandae
-                                cum quam rerum aspernatur doloribus qui animi non fuga dolore quo nemo maxime sequi. Minus
-                                veniam eveniet consequatur atque vitae dignissimos, repudiandae cum quam rerum aspernatur
-                                doloribus qui animi non fuga dolore quo nemo maxime sequi. Minus veniam eveniet consequatur
-                                atque vitae dignissimos, repudiandae cum quam rerum aspernatur doloribus qui animi non fuga
-                                dolore quo nemo maxime sequi. Minus veniam eveniet consequatur atque vitae dignissimos</p>
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="third-left">
+                            <div id="experience-first">
+                                <h4>EXPERIENCE</h4>
+                                <h5>Online Github User</h5>
+                                <hr>
+                                <p id="third-text-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus veniam eveniet consequatur
+                                    atque vitae dignissimos, repudiandae cum quam rerum aspernatur doloribus qui animi non
+                                    fuga dolore quo nemo maxime sequi. Minus veniam eveniet consequatur atque vitae dignissimos,
+                                    repudiandae cum quam rerum aspernatur doloribus qui animi non fuga dolore quo nemo maxime
+                                    sequi. Minus veniam eveniet consequatur atque vitae dignissimos, repudiandae cum quam
+                                    rerum aspernatur doloribus qui animi non fuga dolore quo nemo maxime sequi. Minus veniam
+                                    eveniet consequatur atque vitae dignissimos, repudiandae cum quam rerum aspernatur doloribus
+                                    qui animi non fuga dolore quo nemo maxime sequi. Minus veniam eveniet consequatur atque
+                                    vitae dignissimos</p>
+                            </div>
+                            <div id="experience-second">
+                                <h5>Online WebTech Project</h5>
+                                <hr>
+                                <p id="third-text-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus veniam eveniet consequatur
+                                    atque vitae dignissimos, repudiandae cum quam rerum aspernatur doloribus qui animi non
+                                    fuga dolore quo nemo maxime sequi. Minus veniam eveniet consequatur atque vitae dignissimos,
+                                    repudiandae cum quam rerum aspernatur doloribus qui animi non fuga dolore quo nemo maxime
+                                    sequi. Minus veniam eveniet consequatur atque vitae dignissimos, repudiandae cum quam
+                                    rerum aspernatur doloribus qui animi non fuga dolore quo nemo maxime sequi. Minus veniam
+                                    eveniet consequatur atque vitae dignissimos, repudiandae cum quam rerum aspernatur doloribus
+                                    qui animi non fuga dolore quo nemo maxime sequi. Minus veniam eveniet consequatur atque
+                                    vitae dignissimos</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="third-right">
-                        <div id="BarChart"></div>
+                    <div class="col-md-5">
+                        <div class="third-right">
+                            <div id="card" class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Primary card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Warning card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Info card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -158,7 +209,12 @@
     </section>
 
 
-<script src="/main.js"></script>
+    <!-- <script src="/main.js"></script> -->
+    <!-- first load jquery !IMPORTANT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- link bootstrap javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
