@@ -124,3 +124,28 @@ h3 {
     margin: 10px;
 }
 
+/* FOURTH SECTION */
+#fourth-section {
+    background-color: #f7ce3e;
+    color: #0a1612;
+}
+
+#education-first {
+    margin-top: 40px;
+}
+
+.education-hr {
+    background-color: #0a1612;
+}
+
+#accomplishments {
+    margin-top: 40px;
+}
+
+#accomplishment-first {
+    margin-top: 40px;
+}
+
+.link-certificate {
+    color: #0077b5;
+}
