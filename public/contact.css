@@ -1,0 +1,38 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.fa-arrow-left:before {
+    font-size: 15px;
+    color: #26a69a;
+    padding-right: 8px;
+}
+a {
+    color: #26a69a;
+    text-decoration: none;
+
+}
+
+label {
+    color: #26a69a;
+}
+
+h4 {
+    color: #26a69a;
+}
+
+.back {
+    margin: 20px 0;
+}
+
+.submit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#btn-submit {
+    box-shadow: none;
+}
+
+textarea {
+    height: 100px;
+}
