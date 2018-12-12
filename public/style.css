@@ -139,10 +139,6 @@ h3 {
     margin-top: 40px;
 }
 
-.education-hr {
-    background-color: #0a1612;
-}
-
 
 #accomplishment-first {
     margin-top: 40px;
@@ -153,7 +149,15 @@ h3 {
 }
 
 #contact-text {
-    margin-top: 40px;
+    margin-top: 20px;
+}
+
+.fa-envelope:before {
+    font-size: 25px;
+}
+
+.fa-building::before {
+    font-size: 25px;
 }
 
 /* LAST_SECTION */
