@@ -12,11 +12,13 @@ i.fa {
 }
 
 
-
+/* ============== */
 /* FIRST SECTION */
+/* ============== */
 
 #first-section {
-    background-color: #c5c1c0;
+    /* background-color: #c5c1c0; */
+    /* background-color: #f7ce3e; */
     color: #000;
 }
 #my-image {
@@ -37,7 +39,9 @@ i.fa {
 h1 {
     color: #211F1F; 
     font-size: 10px;
+    text-shadow: 1px 1px #ffffff;
 }
+
 
 .display-1 {
     font-size: 5rem;
@@ -54,6 +58,7 @@ h4 {
     text-decoration: none;
 }
 
+
 #btn-contact:hover {
     color: #ffffff;
 }
@@ -69,6 +74,7 @@ h4 {
 .fa-facebook-square:before {
     color: #3b5998;
 }
+
 .fa-instagram:before {
     color: #e95950;
 }
@@ -78,7 +84,10 @@ h4 {
 .fa-github-square:before {
     color: #211F1F;
 }
+
+/* ============== */
 /* SECOND SECTION */
+/* ============== */
 
 #second-section {
     background-color: #1a2930;
@@ -97,7 +106,10 @@ h4 {
     font-size: 20px;
 }
 
-/* THIRD SECTION*/
+/* ============== */
+/* THIRD SECTION */
+/* ============ */
+
 #third-section {
     background-color: #0a1612;
     color: #ffffff;
@@ -127,9 +139,14 @@ h3 {
 
 .fa-code:before {
     margin: 10px;
+    font-size: 40px;
+    color: #f7ce3e;
 }
 
+/* ==============  */
 /* FOURTH SECTION */
+/* ============== */
+
 #fourth-section {
     background-color: #f7ce3e;
     color: #0a1612;
@@ -160,7 +177,10 @@ h3 {
     font-size: 25px;
 }
 
+/* ============= */
 /* LAST_SECTION */
+/* ============*/
+
 #last-section {
     background-color: #1a2930;
     color: #ffffff;

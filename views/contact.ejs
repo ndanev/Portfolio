@@ -27,16 +27,17 @@
                 <div class="col-md-8 mt-5">
                     <div class="content-box">
                         <h4>CONTACT ME <i class="fa fa-envelope" aria-hidden="true"></i></h4>
-                        <form action="" class="form-control">
-                            <label for="">Name</label>
-                            <input type="text" class="form-control" placeholder="First Name">
-                            <input type="text" class="form-control" placeholder="Last Name">
+                        
+                        <form action="/send" method="POST" class="form-control">
+                            <label for="" class="mt-3">Name</label>
+                            <input type="text" class="form-control" name="firstname" placeholder="First Name" required>
+                            <input type="text" class="form-control" name="lastname" placeholder="Last Name" required>
                             <label for="">Email Address</label>
-                            <input type="text" class="form-control" placeholder="Email Address">
+                            <input type="text" class="form-control" name="email" placeholder="Email Address" required>
                             <label for="">Subject</label>
-                            <input type="text" class="form-control" placeholder="Subject">
+                            <input type="text" class="form-control" name="subject" placeholder="Subject" required>
                             <label for="">Message</label>
-                            <textarea name="" id="" cols="100" maxlength="50" rows="50"></textarea>
+                            <textarea name="text" id="" cols="100" maxlength="50" rows="50" required></textarea>
                             <div class="submit">
                                 <input id="btn-submit" type="submit" value="Submit" class="btn btn-sucess">
                             </div>
