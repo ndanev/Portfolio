@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
+const sendmail = require('sendmail')();
 
 
 const app = express();
@@ -17,14 +18,27 @@ app.get('/contact', (req, res) => {
     res.render('contact');
 });
 
+
+
+// sendmail({
+//     from: 'nem.dan.93@gmail.com',
+//     to: 'nemanja.danev.93@gmail.com',
+//     subject: 'test sendmail',
+//     html: 'Mail of test sendmail ',
+//   }, function(err, reply) {
+//     console.log(err && err.stack);
+//     console.dir(reply);
+// });
+
+
 app.post('/send', (req, res) => {
 
     var output = `
         YOU HAVE A NEW CONTACT REQUEST!
-        --------------------------------------------------------
+        ---------------------------------------------------------
         Contact Details
         ---------------------
-        
+
         First Name: ${req.body.firstname}
         Last Name: ${req.body.lastname}
         Email: ${req.body.email} 
@@ -40,14 +54,14 @@ app.post('/send', (req, res) => {
             pass: 'nemanja123'
         }
     });
-    
+
     var mailOption = {
         from: req.body.email,
         to: 'nemanja.danev.93@gmail.com',
         subject: req.body.subject,
         text: output
     };
-    
+
     transporter.sendMail(mailOption, function(error, info) {
         if(error) {
             console.log(error);

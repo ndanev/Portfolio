@@ -143,6 +143,27 @@ h3 {
     color: #f7ce3e;
 }
 
+.fa-soundcloud:before {
+    color: #ffffff;
+}
+
+
+.fa-futbol-o:before {
+    font-size: 25px;
+}
+
+.fa-music:before {
+    font-size: 25px;
+}
+
+.fa-gamepad:before {
+    font-size: 25px;
+}
+
+.fa-film:before {
+    font-size: 25px;
+}
+
 /* ==============  */
 /* FOURTH SECTION */
 /* ============== */
