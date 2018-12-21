@@ -24,7 +24,7 @@ window.onload = function () {
         animationEnabled: true,
         theme: "light2", // "light1", "light2", "dark1", "dark2"
         title:{
-            text: "Strength"
+            text: "Strengths"
         },
         data: [{
             type: "pie", //change type to bar, line, area, pie, column etc
@@ -42,3 +42,13 @@ window.onload = function () {
     chart2.render();
     
 }
+
+
+// functionality for scrilling down 
+$('#btn-find-out-more').on('click', () => {
+    $('html, body').animate({scrollTop: 850}, '1000');
+});
+
+$("#arrow-down").on('click', () => {
+    $('html, body').animate({scrollTop: 850}, '500');
+});
