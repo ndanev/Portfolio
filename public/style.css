@@ -21,10 +21,30 @@ i.fa {
     min-height: 100vh; /* important */
     
 }
+
+#navbar {
+    /* position: fixed; */
+    margin: 0 auto;
+    width: 33%;
+    /* left: 33%; */
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-link {
+    margin-top: 10px;
+    color: #26a69a;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: #1a2930;
+}
+
 #my-image {
     width: 100%;
-    height: 100%;
-    margin: 20px 0;
+    height: 450px;
 }
 
 #lastname {
@@ -37,7 +57,6 @@ i.fa {
 }
 
 h1 {
-    /* color: #211F1F;  */
     color: #1a2930;
     font-size: 10px;
     text-shadow: 1px 1px #ffffff;
@@ -61,12 +80,14 @@ h4 {
     font-size: 13px;
     box-shadow: none;
     text-decoration: none;
+    border-radius: 50px;
 }
 
 #btn-find-out-more {
     font-size: 13px;
     box-shadow: none;
     text-decoration: none;
+    border-radius: 50px;
 }
 
 #btn-find-out-more:hover {
@@ -104,17 +125,27 @@ h4 {
 
 #arrow {
     text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: #26a69a;
+    border-radius: 2px;
     position: absolute;
-    left: 50%;
+    right: 50%;
     bottom: 0;
     padding: 0;
 }
 
-
-.fa-arrow-down:before {
-    font-size: 30px;
-    color: #1a2930;
+#arrow:hover {
+    background-color: #1a2930;
 }
+
+
+.fa-angle-double-down:before {
+    font-size: 30px;
+    color: #ffffff;
+
+}
+
 
 
 /* ============== */
@@ -253,3 +284,8 @@ h3 {
 .fa-graduation-cap:before {
     font-size: 30px;
 }
+
+.fa-calendar:before {
+    font-size: 16px;
+}
+

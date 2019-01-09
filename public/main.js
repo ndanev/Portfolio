@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onload = () => {
 
     var chart = new CanvasJS.Chart("chartContainer", {
         animationEnabled: true,
@@ -7,7 +7,7 @@ window.onload = function () {
             text: "Languages"
         },
         data: [{
-            type: "pie", //change type to bar, line, area, pie, column etc
+            type: "area", //change type to bar, line, area, pie, column etc
             //indexLabel: "{y}", //Shows y value on all Data Points
             indexLabelFontColor: "#5A5757",
             indexLabelPlacement: "outside",
@@ -46,9 +46,9 @@ window.onload = function () {
 
 // functionality for scrilling down 
 $('#btn-find-out-more').on('click', () => {
-    $('html, body').animate({scrollTop: 850}, '1000');
+    $('html, body').animate({scrollTop: 810}, '1000');
 });
 
 $("#arrow-down").on('click', () => {
-    $('html, body').animate({scrollTop: 850}, '500');
+    $('html, body').animate({scrollTop: 810}, '1000');
 });
